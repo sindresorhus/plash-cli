@@ -1,0 +1,44 @@
+{
+	"name": "plash",
+	"version": "0.0.0",
+	"description": "Control the Plash app from the command-line",
+	"license": "MIT",
+	"repository": "sindresorhus/plash-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"bin": {
+		"plash": "./cli.js"
+	},
+	"engines": {
+		"node": ">=14.14"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js",
+		"api.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"plash",
+		"macos",
+		"app",
+		"control",
+		"scripting"
+	],
+	"dependencies": {
+		"meow": "^10.0.0"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"execa": "^5.0.0",
+		"xo": "^0.40.1"
+	}
+}
