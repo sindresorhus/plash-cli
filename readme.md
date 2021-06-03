@@ -9,7 +9,7 @@ $ npm install --global plash
 ```
 
 *Requires [Node.js 14](https://nodejs.org) or later.*\
-*Requires Plash 2.2.0 or later.*
+*Requires Plash 2.3.0 or later.*
 
 ## Usage
 
@@ -24,6 +24,7 @@ $ plash --help
     reload
     next
     previous
+    random
     toggle-browsing-mode
 
   Examples

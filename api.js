@@ -32,6 +32,10 @@ plash.previous = async () => {
 	await execute('previous');
 };
 
+plash.random = async () => {
+	await execute('random');
+};
+
 plash.toggleBrowsingMode = async () => {
 	await execute('toggle-browsing-mode');
 };

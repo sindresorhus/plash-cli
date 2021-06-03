@@ -11,6 +11,7 @@ const cli = meow(`
 	  reload
 	  next
 	  previous
+	  random
 	  toggle-browsing-mode
 
 	Examples
@@ -28,6 +29,7 @@ const supportedCommands = [
 	'reload',
 	'next',
 	'previous',
+	'random',
 	'toggle-browsing-mode'
 ];
 
