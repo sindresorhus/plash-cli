@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import process from 'node:process';
 import meow from 'meow';
 import plash from './api.js';
 
@@ -21,7 +22,7 @@ const cli = meow(`
 
 	If you don’t specify a title for the “add” command, one will be automatically fetched from the website.
 `, {
-	importMeta: import.meta
+	importMeta: import.meta,
 });
 
 const supportedCommands = [
@@ -30,7 +31,7 @@ const supportedCommands = [
 	'next',
 	'previous',
 	'random',
-	'toggle-browsing-mode'
+	'toggle-browsing-mode',
 ];
 
 let method = cli.input[0];
@@ -50,6 +51,4 @@ if (method === 'toggle-browsing-mode') {
 	method = 'toggleBrowsingMode';
 }
 
-(async () => {
-	await plash[method](options);
-})();
+await plash[method](options);

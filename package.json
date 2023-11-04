@@ -15,7 +15,7 @@
 		"plash": "./cli.js"
 	},
 	"engines": {
-		"node": ">=14.14"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -34,11 +34,11 @@
 		"scripting"
 	],
 	"dependencies": {
-		"meow": "^10.0.0"
+		"meow": "^12.1.1"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^5.0.0",
-		"xo": "^0.40.1"
+		"ava": "^5.3.1",
+		"execa": "^8.0.1",
+		"xo": "^0.56.0"
 	}
 }

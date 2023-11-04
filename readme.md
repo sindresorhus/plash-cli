@@ -4,12 +4,11 @@
 
 ## Install
 
-```
-$ npm install --global plash
+```sh
+npm install --global plash
 ```
 
-*Requires [Node.js 14](https://nodejs.org) or later.*\
-*Requires Plash 2.3.0 or later.*
+*Requires [Node.js 18+](https://nodejs.org).*
 
 ## Usage
 
