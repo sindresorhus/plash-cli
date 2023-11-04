@@ -1,6 +1,6 @@
 {
 	"name": "plash",
-	"version": "0.2.0",
+	"version": "1.0.0",
 	"description": "Control the Plash app from the command-line",
 	"license": "MIT",
 	"repository": "sindresorhus/plash-cli",
